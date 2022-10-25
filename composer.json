@@ -1,0 +1,22 @@
+{
+  "name": "aariow/proxy-http",
+  "description": "Simple HTTP proxy (URL redirector) built with PHP",
+  "type": "project",
+  "keywords": ["php", "proxy", "http"],
+  "license": "MIT",
+  "require": {
+    "php": "^8.1.2"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
